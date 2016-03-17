@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f5f5f5;
+	/*max-width: 1440px;*/
+	/*min-width: 600px;*/
+	font-size: 14px;
+	color: #333;
+}
+ul,li,a {
+	display: block;
+	list-style: none;
+	text-decoration: none;
+}
+.header {
+
+	padding: 20px 30px;
+	background: url(../image/yekong.jpg);
+}
+.container {
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 1170px;
+	/*height: 600px;*/
+	background: #eee;
+	border-radius: 6px;
+}
+.nav {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px 20px;
+}
+.nav a {
+	color: #ffffff;
+	transition: all 1s;
+}
+.nav a:hover {
+	color: #3d5998;
+}
+.name {
+	float: left;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.navbar {
+	overflow: hidden;
+	float: right;
+}
+.navbar li {
+	display: inline-block;
+}
+.navbar a {
+	display: inline-block;
+	padding: 0 5px;
+	margin-left: 30px;
+}
+.btn1 {
+	width: 50px;
+    padding: 3px 15px 3px 10px;
+	border: none;
+	border-radius: 15px;
+	outline: none;
+	margin-left: 20px;
+	background-color: #bebebe;
+    color: lightseagreen;
+    /*text-shadow: 0 2px 3px ;*/
+    transition: all 0.7s;
+}
+.btn1:hover{
+	width: 150px;
+	background: #ffffff;
+}
+.show {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.img1 {
+	float: left;
+}
+.img1 img {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 300px;
+}
+.read {
+	overflow: hidden;
+	width: auto;
+	/*float: left;*/
+	padding: 0 50px;
+}
+.read h2 {
+	padding-bottom: 20px;
+}
+.read p {
+	width: 500px;
+	line-height: 40px;
+	padding: 20px;
+	background: pink;
+	border-radius: 20px;
+	color: #ffffff;
+}
